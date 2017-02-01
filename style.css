@@ -1,7 +1,35 @@
-.first-header  {
-     color:red;
- }
+body{
+    margin: 0;
+}
 
- .button {
-     background-color: #cef;
- }
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #444;
+}
+.title{
+    margin-top: 0;
+}
+.nav-link {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+.nav-link:hover {
+    color: orange;
+
+}
+
+
+
+.nav,
+.nav-link {
+    color: #eee;
+}
+.picture-of-me {
+    width: 100%;
+    max-width: 300px;
+}
