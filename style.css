@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -7,29 +7,107 @@ body{
     flex-flow: row wrap;
     justify-content: space-between;
     background-color: #444;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
 }
-.title{
+
+
+.title {
     margin-top: 0;
+    margin-bottom:0;
 }
+
+.nav-links-container {
+    padding-right: 30px;
+}
+
 .nav-link {
     margin-left: 20px;
     margin-top: 10px;
     display: inline-block;
-
 }
 
 .nav-link:hover {
     color: orange;
-
 }
 
+.picture-of-me-container {
+    text-align: right;
+}
 
-
-.nav,
-.nav-link {
+.nav, .nav-link {
     color: #eee;
 }
+.landing-page {
+    min-height: 100vh;
+    background-image: url('./porsche.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
 .picture-of-me {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.picture-of-me-container, .about-text {
+    width: 50%;
+    min-width: 300px;
+}
+
+.portfolio-container {
+    background-color: #eee;
+}
+
+.section-header {
+    margin: 0;
+    padding-top: 15px;
+    padding bottom: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    background-color: #ddd;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px 0 #000;
+}
+
+.project .image {
+    width: 100%;
+    height:200px;
+    background-image: url('./project-placeholder.png');
+    background-size: cover;
+
+
+}
+.job-title {
+    font-size: 20px;
+    margin-left:10px;
+    margin-bottom: 0px;
+
+}
+
+.job-duties-list {
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.company {
+    margin-top: 5px;
 }
