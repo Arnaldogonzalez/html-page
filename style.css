@@ -44,12 +44,13 @@ body {
     background-image: url('./porsche.jpg');
     background-size: cover;
     background-position: center;
+
 }
 .about-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 100vh;
+
 }
 
 .picture-of-me {
@@ -110,4 +111,22 @@ body {
 }
 .company {
     margin-top: 5px;
+}
+
+.form-input {
+    margin: 15px;
+    display: block;
+    border-color: green;
+    padding: 5px;
+    border-width: 10px;
+
+}
+
+.form-input:hover {
+    border-color: red;
+}
+
+.email-form,
+.form-text {
+    display: inline-block;
 }
